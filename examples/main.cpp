@@ -12,6 +12,8 @@
 #include "states.hpp"
 
 int main(int argc, char **argv) {
+  (void)argc;
+  (void)argv;
   IdleState idle;
   RunningState running;
   PausedState paused;
